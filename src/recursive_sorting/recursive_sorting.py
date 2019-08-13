@@ -38,11 +38,19 @@ def merge(arrA, arrB):
 
 def merge_sort(arr):
     # TO-DO
-
+    if length(arr) == 0:
+        return arr
+    else:
+        midpoint = len(arr) // 2
+        print(f"Midpoint {midpoint}")
     return arr
 
 
+print(merge_sort([]))
+
 # STRETCH: implement an in-place merge sort algorithm
+
+
 def merge_in_place(arr, start, mid, end):
     # TO-DO
 
